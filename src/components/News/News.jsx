@@ -48,7 +48,10 @@ const News = () => {
     },[category,city]);
     return (
         <Container sx={{mt:3}}>
-         <Stack direction={'row'} spacing={2}> 
+          <Typography variant='h6' component='p'>
+            Filter By :
+          </Typography>
+         <Stack sx={{p:2}} direction={'row'} spacing={2}> 
 
      <PublicIcon></PublicIcon>
         <Box sx={{ maxWidth: 120 }}>

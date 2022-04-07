@@ -26,6 +26,17 @@
 
 .App-link {
   color: #61dafb;
+
+}
+
+.header{
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1055155337/thumb/1.jpg');
+  background-size: cover;
+  object-fit: fill;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+
